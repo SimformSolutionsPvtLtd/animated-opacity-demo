@@ -6,8 +6,8 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  bool animate = true;
-  double opacity = 0.9;
+  bool _animate = true;
+  double _opacity = 0.9;
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AnimatedOpacity(
-              opacity: opacity,
+              opacity: _opacity,
               duration: Duration(
                 seconds: 1,
               ),
@@ -28,24 +28,26 @@ class _HomeState extends State<Home> {
               curve: Curves.easeIn,
             ),
             ElevatedButton(
-              onPressed: () {
-                if (animate) {
-                  setState(() {
-                    opacity = 0.1;
-                    animate = !animate;
-                  });
-                } else {
-                  setState(() {
-                    opacity = 0.9;
-                    animate = !animate;
-                  });
-                }
-              },
+              onPressed: _animateOpacity,
               child: Text('Animate'),
             ),
           ],
         ),
       ),
     );
+  }
+
+  void _animateOpacity() {
+    if (_animate) {
+      setState(() {
+        _opacity = 0.1;
+        _animate = !_animate;
+      });
+    } else {
+      setState(() {
+        _opacity = 0.9;
+        _animate = !_animate;
+      });
+    }
   }
 }
