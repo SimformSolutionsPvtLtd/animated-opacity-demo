@@ -26,6 +26,7 @@ class _HomeState extends State<Home> {
               ),
               child: FlutterLogo(size: 150),
               curve: Curves.easeIn,
+              onEnd: () => print('Animation is completed'),
             ),
             ElevatedButton(
               onPressed: _animateOpacity,
