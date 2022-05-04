@@ -8,5 +8,5 @@ to get full explanation of the demo.
 
 Here is the demo from blog
 
-<a href="https://raw.githubusercontent.com/SimformSolutionsPvtLtd/ujas-m-simformsolutions/animated-opacity-demo/assets/demo.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-opacity-demo/main/assets/demo.gif" width="390px;" height="700px;"/></a>
+<a href="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-opacity-demo/master/assets/demo.gif"><img src="https://raw.githubusercontent.com/ujas-m-simformsolutions/animated-opacity-demo/master/assets/demo.gif" width="390px;" height="700px;"/></a>
 
