@@ -1,16 +1,7 @@
-# animare_opacity_demo
+# Animated Opacity Demo
 
-A new Flutter application.
+This is a small demo to demonstrate the usage of AnimatedOpacity widget.
 
-## Getting Started
+You can visit this [medium-blog](https://medium.com/@ujasthakkar54/animate-widgets-with-animatedopacity-ec74e4c36ac5)
+to get full explanation of the demo.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
