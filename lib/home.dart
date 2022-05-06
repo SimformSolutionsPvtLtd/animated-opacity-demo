@@ -13,7 +13,8 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('AnimatedOpacity demo'),
+        title: Text('Animated Opacity Demo'),
+        backgroundColor: Color(0xffef5366),
       ),
       body: Center(
         child: Column(
@@ -24,13 +25,17 @@ class _HomeState extends State<Home> {
               duration: Duration(
                 seconds: 1,
               ),
-              child: FlutterLogo(size: 150),
+              child: Padding(
+                padding: const EdgeInsets.all(30),
+                child: Image.asset('assets/logo.png'),
+              ),
               curve: Curves.easeIn,
               onEnd: () => print('Animation is completed'),
             ),
             ElevatedButton(
               onPressed: _animateOpacity,
               child: Text('Animate'),
+              style: ElevatedButton.styleFrom(primary: Color(0xffef5366)),
             ),
           ],
         ),
